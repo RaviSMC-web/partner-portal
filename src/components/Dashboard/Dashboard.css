@@ -1,0 +1,311 @@
+.top_bg_col {
+    position: absolute;
+    width: 100%;
+    background-color: #EFF7FF;
+    height: 135px;
+}
+
+.top_card .p-card .p-card-body {
+   /* width: 320px; */
+height: 200px;
+
+background: #EDF6FF;
+box-shadow: 8px 8px 16px #C9D9E8, -8px -8px 16px #FFFFFF;
+border-radius: 8px;
+  }
+.internal_card .p-card .p-card-body {
+  /* width: 320px; */
+height: 200px;
+
+background: #FFFFFF;
+box-shadow: 6px 6px 14px rgba(12, 167, 80, 0.05);
+border-radius: 8px;
+ }
+ .top_card .card_content {
+    display: flex;
+    gap: 3rem;
+    margin: 2rem;
+  }
+  .top_card .p-card {
+    background: #ffffff;
+    color: #495057;
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    border-radius: 6px;
+    /* width: 300px; */
+}
+
+.top_card .p-card .p-card-title {
+  font-size: 1rem !important;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.top_card .p-card .p-card-subtitle {
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: #6c757d;
+  font-size: 14px !important;
+}
+
+.top_card .p-button.p-button-link {
+  color:  #4E00FF !important;
+  background: transparent;
+  border: transparent;
+  font-size: 14px !important;
+  text-decoration: none;
+}
+
+.drop_down_income .p-dropdown {
+  display: inline-flex;
+  cursor: pointer;
+  position: relative;
+  -webkit-user-select: none;
+  user-select: none;
+  height: 33px !important;
+    width: 112px !important;
+    top: 12px;
+    background: #DFEEFF;
+    
+}
+.drop_down_income_sec .p-dropdown {
+  display: inline-flex;
+  cursor: pointer;
+  position: relative;
+  -webkit-user-select: none;
+  user-select: none;
+  height: 33px !important;
+    width: 112px !important;
+    top: 12px;
+    background: #F8F6FF;
+    
+}
+
+.drop_down_income .p-dropdown-label.p-placeholder {
+  margin-top: -9px !important;
+}
+
+.p-dropdown .p-dropdown-label {
+    background: transparent;
+    border: 0 none;
+    margin-top: -11px;
+}
+
+.drop_down .p-dropdown {
+  display: inline-flex;
+  cursor: pointer;
+  position: relative;
+  -webkit-user-select: none;
+  user-select: none;
+  height: 25px !important;
+    width: 112px !important;
+    top: 5px;
+    right: 5px;
+}
+.drop_down .p-dropdown .p-dropdown-label.p-placeholder {
+  color: #6c757d;
+  margin-top: -12px !important;
+}
+
+.react-multi-carousel-item {
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  width: 345px !important;
+  height: 260px !important;
+  
+}
+.react-multi-carousel-track li {
+  flex: 1 1 auto;
+  position: relative;
+  width: 345px !important;
+}
+
+
+.css-1qb115y {
+  margin-top: 10px;
+  background: none !important;
+}
+
+.react-multiple-carousel__arrow::before {
+  font-size: 20px;
+  color: #5037EA !important;
+  display: block;
+  font-family: revicons;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+}
+.react-multiple-carousel__arrow--left::before {
+  content: "\2190" !important;
+}
+.react-multiple-carousel__arrow--right::before {
+  content: "\2192" !important;
+}
+.react-multiple-carousel__arrow {
+  position: absolute;
+  outline: 0;
+  top: 0px !important;
+  transition: all .5s;
+  border-radius: 0 !important;
+  z-index: 1000;
+  border: 0;
+  
+  background: #ffffff !important;
+  min-width: 51px !important;
+  min-height: 25px !important;
+  opacity: 1;
+  cursor: pointer;
+  /* right: 86px !important; */
+}
+.react-multiple-carousel__arrow--left {
+  left: 90% !important;
+}
+.react-multiple-carousel__arrow--right {
+  right: 0% !important;
+}
+.react-multi-carousel-list {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  right: 36px !important;
+}
+
+.react-multi-carousel-track {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 137px !important;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform,transition;
+}
+
+.p-button.p-button-sm {
+  font-size: 0.875rem;
+  padding: 5px !important;
+  height: 25px !important;
+  margin-top: 16px !important;
+}
+.p-button {
+  color: #0CA750 !important;
+  background: #E0F8EE !important;
+  border: none !important;
+  padding: 5px !important;
+  font-size: 1rem;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  border-radius: 4px !important;
+}
+
+/* .p-chart {
+  position: relative;
+  height: 160px !important;
+  width: 160px !important;
+} */
+.income_bar .p-chart {
+  position: relative;
+  height: 120px !important;
+  width: 160px !important;
+}
+
+.total_income_bar .p-chart {
+  position: relative;
+  height: 300px !important;
+  /* width: 160px !important; */
+}
+
+.analytics_chart .p-chart {
+  position: relative;
+  /* height: 120px !important; */
+  width: 100% !important;
+}
+
+.analytics_chart {
+  margin-top: -50px;
+}
+
+.p-divider-vertical {
+  min-height: 100%;
+  margin: 0 !important;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.p-divider.p-divider-vertical {
+  margin: 0 !important;
+  padding: 1.25rem 0;
+}
+
+.total_income {
+  padding: 0px 20px;
+}
+/* .income_bar {
+  padding: 0px 20px;
+} */
+
+.donut-inner {
+text-align: center;
+ margin-top: -35%;
+font-family: sans-serif;
+}
+.donut-inner .percent {
+font-size: 65px;
+ margin-bottom: 3px;
+ margin-top: 0;
+font-weight: bolder;
+}
+.donut-inner .percent small{
+font-size: 35px;
+font-weight: bolder;
+font-family: Arial;
+}
+.donut-inner .price {
+margin: 0;
+ font-size: 30px;
+}
+.rrr {
+  position: relative;
+  z-index: 100;
+  top: 100px;
+  left: 100px;
+  font-weight: 700;
+}
+.bottom_cards {
+  background: #3C5DF4;
+  display: flex;
+  justify-content: space-between;
+    /* width: 33%; */
+    color: white;
+    padding: 10px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.bottom_cards img {
+  position: relative;
+    top: 23px;
+    /* right: -40px; */
+    opacity: 0.5;
+}
+.bottom_cards p {
+  font-size: 25px;
+  position: relative;
+  top: -10px;
+  left: 20px;
+}
+.slider_dash {
+  margin: 55px 20px 20px 20px;
+}
+
+/* .p-card {
+  background: #ffffff;
+  color: #495057;
+  box-shadow: 6px 6px 14px rgba(12, 167, 80, 0.05);
+  box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+  border-radius: 6px;
+} */

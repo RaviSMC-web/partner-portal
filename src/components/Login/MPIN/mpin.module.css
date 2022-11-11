@@ -1,0 +1,83 @@
+@media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(1, 1fr); }
+  }
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+
+
+
+.cards{
+    display: grid;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+
+.card {
+    /* background: #EAF4FF; */
+    padding: 1rem;
+    min-height: 100vh;
+    
+  }
+
+  .card_sub{
+    height: 39em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .card_sub1{
+      background: white;
+  }
+.portal{
+    height: 35rem;
+    width: 60%;
+    margin: 40px auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+.portal h1{
+ font-style: normal;
+width: 100%;
+font-weight: 700;
+font-size: clamp(.5rem, 2.8rem, 3.375rem);
+line-height: 55px;
+
+color: #424242;
+}
+
+.portal p{
+ margin-top: 11px;
+font-style: normal;
+font-size: 15.5px;
+color: #626476;
+}
+
+.form{
+    margin-top: 40px;
+width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ gap: 50px;
+}
+
+.portal h6{
+    color: #424242;
+    font-size: 12px;
+    margin: 25px;
+}
+
+.otp{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 40px;
+   
+}

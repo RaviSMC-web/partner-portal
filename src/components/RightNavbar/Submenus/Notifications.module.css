@@ -1,0 +1,95 @@
+.icon_container {
+  position: relative;
+  padding: 0.35rem;
+  border-radius: 50%;
+  margin-top: 5px;
+  display: flex;
+  cursor: pointer;
+  transition: background 200ms ease;
+}
+.notifications_container {
+  position: relative;
+}
+.notifications_container .submenu {
+  position: absolute;
+  right: -3rem;
+  bottom: -0.5rem;
+  transform: translateY(95%);
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.24);
+  pointer-events: none;
+  opacity: 0;
+  transition: all ease-in-out 300ms;
+}
+@media screen and (max-width: 600px) {
+  .notifications_container .submenu {
+    right: 60%;
+    transform: translateY(95%) translateX(60%);
+  }
+}
+@media screen and (max-width: 420px) {
+  .notifications_container .submenu {
+    right: -2rem;
+  }
+}
+.notifications_container .submenu .title {
+  font-size: 0.9rem;
+  color: rgb(184, 184, 184);
+  font-weight: 450;
+  margin: var(--margin-xxs) 0;
+  padding-left: 0.8rem;
+}
+.notifications_container .submenu .notifications {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.notifications_container .submenu .notifications .notification {
+  transition: background ease-in-out 300ms;
+  padding: 0.2rem 2rem 0.2rem 0.8rem;
+  width: 22rem;
+}
+@media screen and (max-width: 400px) {
+  .notifications_container .submenu .notifications .notification {
+    width: 18rem;
+  }
+}
+.notifications_container .submenu .notifications .notification:hover {
+  background: lightgrey;
+}
+.notifications_container .submenu .notifications .notification_title {
+  font-size: 0.9rem;
+  font-weight: 550;
+  white-space: nowrap;
+  margin-bottom: 3px;
+}
+.notifications_container .submenu .notifications .notification p {
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.notifications_container .submenu .notifications .notification_date {
+  margin-top: var(--margin-xxs);
+  font-size: 0.7rem;
+  color: rgb(184, 184, 184);
+  font-weight: 400;
+}
+.notifications_container .submenu .notifications .notification:last-child {
+  margin-bottom: 4px;
+}
+.notifications_container .submenu_active {
+  opacity: 1;
+  pointer-events: initial;
+  transform: translateY(100%);
+}
+@media screen and (max-width: 600px) {
+  .notifications_container .submenu_active {
+    right: 60%;
+    transform: translateY(100%) translateX(60%);
+  }
+}
+@media screen and (max-width: 420px) {
+  .notifications_container .submenu_active {
+    right: -2rem;
+  }
+}/*# sourceMappingURL=Notifications.module.css.map */

@@ -1,0 +1,12 @@
+{
+    "data": [
+        {"id": "1000","code": "Cash Intraday","name": "3312","description": "Product Description","image": "bamboo-watch.jpg","price": 65,"category": "₹ 1,52,133.00","quantity": 24,"inventoryStatus": "INSTOCK","rating": 5},
+        {"id": "1001","code": "Cash Delivery","name": "312","description": "Product Description","image": "black-watch.jpg","price": 72,"category": "₹ 2,53,121.00","quantity": 61,"inventoryStatus": "INSTOCK","rating": 4},
+        {"id": "1002","code": "Future Stock","name": "152","description": "Product Description","image": "blue-band.jpg","price": 79,"category": "₹ 52,415,00","quantity": 2,"inventoryStatus": "LOWSTOCK","rating": 3},
+        {"id": "1003","code": "Future Index","name": "322","description": "Product Description","image": "blue-t-shirt.jpg","price": 29,"category": "₹ 58,811,00","quantity": 25,"inventoryStatus": "INSTOCK","rating": 5},
+        {"id": "1004","code": "Stock Futures","name": "146","description": "Product Description","image": "bracelet.jpg","price": 15,"category": "₹ 12,411,00","quantity": 73,"inventoryStatus": "INSTOCK","rating": 4},
+        {"id": "1005","code": "Stock Index","name": "132","description": "Product Description","image": "brown-purse.jpg","price": 120,"category": "₹ 41,131,00","quantity": 0,"inventoryStatus": "OUTOFSTOCK","rating": 4},
+        {"id": "1006","code": "Option Stock","name": "152","description": "Product Description","image": "chakra-bracelet.jpg","price": 32,"category": "₹ 1,32,230.00","quantity": 5,"inventoryStatus": "LOWSTOCK","rating": 3},
+        {"id": "1007","code": "Option Index","name": "322","description": "Product Description","image": "galaxy-earrings.jpg","price": 34,"category": "₹ 2,241.00","quantity": 23,"inventoryStatus": "INSTOCK","rating": 5}
+    ]
+}

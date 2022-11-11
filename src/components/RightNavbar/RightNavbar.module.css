@@ -1,0 +1,80 @@
+.icon_container {
+  position: relative;
+  padding: 0.35rem;
+  border-radius: 50%;
+  margin-top: 5px;
+  display: flex;
+  cursor: pointer;
+  transition: background 200ms ease;
+}
+.container {
+  display: flex;
+  align-items: center;
+  padding: var(--padding-sm);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 3.5rem;
+  background: #EFF7FF;
+  z-index: 10;
+  border-bottom: 1px solid rgba(112, 112, 112, 0.3);
+}
+.container svg {
+  font-size: 1.2rem;
+}
+
+.burger_container {
+  display: none;
+  cursor: pointer;
+  padding: 0.2rem;
+}
+@media screen and (max-width: 1024px) {
+  .burger_container {
+    display: flex;
+  }
+}
+.burger_container svg {
+  font-size: 1.8rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #475569;
+}
+@media screen and (max-width: 360px) {
+  .actions {
+    justify-content: flex-start;
+    margin-left: 1rem;
+  }
+}
+
+.btn_logout {
+  margin-top: auto;
+  display: flex;
+  justify-content: flex-end;
+  transition: all ease-in-out 200ms;
+  padding: 0.5rem 0.75rem 0 0.75rem;
+}
+@media screen and (max-width: 1024px) {
+  .btn_logout {
+    position: absolute !important;
+    opacity: 0;
+  }
+}
+.btn_logout svg {
+  font-size: 1.5rem;
+  color: var(--color_nav_active);
+  cursor: pointer;
+  transform: scaleX(-1);
+}
+@media screen and (max-width: 1024px) {
+  .btn_logout svg {
+    position: absolute !important;
+    opacity: 0;
+  }
+}/*# sourceMappingURL=RightNavbar.module.css.map */

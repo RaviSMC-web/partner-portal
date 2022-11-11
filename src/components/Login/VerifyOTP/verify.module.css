@@ -1,0 +1,129 @@
+@media (min-width: 600px) {
+    .cards { grid-template-columns: repeat(1, 1fr); }
+  }
+  @media (min-width: 900px) {
+    .cards { grid-template-columns: repeat(2, 1fr); }
+  }
+
+
+
+.cards{
+    display: grid;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+
+.card {
+    /* background: #EAF4FF; */
+    padding: 1rem;
+    min-height: 100vh;
+    
+  }
+
+  .card_sub{
+    height: 39em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .card_sub1{
+      background: white;
+  }
+.portal{
+    height: 35rem;
+    width: 60%;
+    margin: 40px auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+.portal h1{
+    font-style: normal;
+font-weight: 700;
+font-size: clamp(.5rem, 2.8rem, 3.375rem);
+line-height: 55px;
+width: 100%;
+color: #424242;
+}
+
+.portal p{
+ width: 100%;
+font-style: normal;
+font-size: 15.5px;
+color: #626476;
+margin-top: .5em;
+}
+
+.form{
+    margin-top: 40px;
+width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ gap: 50px;
+}
+
+.portal h6{
+    color: #424242;
+    font-size: 12px;
+    margin: 25px;
+}
+
+.resend{
+    display: flex;
+    margin-top: 27.67px;
+}
+
+/* input[type="tel"]{
+  border: 1px solid rgba(174, 176, 190, 0.5);
+border-radius: 6px;
+width: 42px !important;
+height: 55px !important;
+}
+button{
+  border: none;
+  background: transparent;
+  color:#3F5BD9;
+  margin-left: -1em;
+}
+span{
+  color: #3F5BD9;
+}
+.styles{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start
+}
+.style_sub{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -7.9em;
+}
+.style_sub .did{
+  color: #626476;
+}
+.heading3{
+  color: #3F5BD9;
+  font-size: 14px;
+  margin-left: .3em;
+}
+ul{
+width: 100% !important;
+margin-top: -2.3em !important;
+background: #FFFFFF;
+border: 1px solid rgba(112, 112, 112, 0.1);
+box-shadow: 6px 6px 14px rgba(12, 167, 80, 0.05);
+border-radius: 4px;
+padding: 1em !important;
+}
+li{
+   display: flex;
+}
+li svg{
+margin-left: .2em;
+} */

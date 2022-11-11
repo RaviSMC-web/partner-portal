@@ -1,0 +1,52 @@
+.icon_container {
+  position: relative;
+  padding: 0.35rem;
+  border-radius: 50%;
+  margin-top: 5px;
+  display: flex;
+  cursor: pointer;
+  transition: background 200ms ease;
+}
+.support {
+  position: relative;
+}
+.support .submenu {
+  position: absolute;
+  bottom: -0.5rem;
+  right: -2rem;
+  transform: translateY(120%);
+  background: white;
+  padding: var(--padding-xs) var(--padding-lg) var(--padding-xs) var(--padding-xs);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.24);
+  opacity: 0;
+  pointer-events: none;
+  transition: all ease-in-out 300ms;
+}
+.support .submenu .title {
+  display: block;
+  margin-bottom: var(--margin-xxs);
+  color: lightgray;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.support .submenu a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: rgba(85, 79, 232, 0.7);
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-bottom: 3px;
+}
+.support .submenu a:hover {
+  text-decoration: underline;
+}
+.support .submenu svg {
+  font-size: 1rem;
+}
+.support .submenu_active {
+  opacity: 1;
+  pointer-events: initial;
+  transform: translateY(100%);
+}/*# sourceMappingURL=Support.module.css.map */
